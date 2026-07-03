@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# 本地 clone 的代码仓库（保留目录结构）
+references/repo/*
+!references/repo/.gitkeep
+
+# 用户放入的参考资料（本地使用，不提交）
+references/requirements/*
+!references/requirements/.gitkeep
+references/technical/*
+!references/technical/.gitkeep
+references/ui/*
+!references/ui/.gitkeep
+
+# AI 生成的输出文件（保留目录结构）
+output/*
+!output/.gitkeep
